@@ -1,0 +1,64 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "@material-ui/styles": "^4.9.14",
+    "@welldone-software/why-did-you-render": "^4.2.1",
+    "gatsby": "^2.21.25",
+    "gatsby-image": "^2.4.3",
+    "gatsby-plugin-google-analytics": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.4.3",
+    "gatsby-plugin-material-ui": "^2.1.8",
+    "gatsby-plugin-offline": "^3.2.2",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.6.3",
+    "gatsby-plugin-smoothscroll": "^1.1.0",
+    "gatsby-source-filesystem": "^2.3.2",
+    "gatsby-transformer-remark": "^2.8.8",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "markdown-to-jsx": "^6.11.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-particles-js": "^2.7.1",
+    "react-waypoint": "^9.0.2",
+    "typeface-roboto": "0.0.75"
+  },
+  "devDependencies": {
+    "@iconify/icons-fa": "^1.0.3",
+    "@iconify/icons-fa-brands": "^1.0.12",
+    "@iconify/icons-logos": "^1.0.11",
+    "@iconify/icons-octicon": "^1.0.5",
+    "@iconify/react": "^1.1.3",
+    "prettier": "^2.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

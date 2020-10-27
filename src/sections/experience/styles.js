@@ -90,12 +90,9 @@ export default makeStyles((theme) => {
       padding: theme.spacing(0.5),
       transition: `transform ${theme.transitions.duration.shortest}ms`,
       filter: dark ? "invert(1) grayscale(100%)" : "none",
-      position: "relative",
-      top: "50%",
-      transform: "translateY(-50%) !important",
       backfaceVisibility: "hidden",
       "&:hover": {
-        transform: "translateY(-50%) scale(1.1) !important",
+        transform: "scale(1.1) !important",
       },
     },
     boldFW: {
